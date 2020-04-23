@@ -1,0 +1,50 @@
+
+main{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
+	padding: 5px;
+	width: 30%;
+	height: 250px;
+}
+
+h1{
+	font-size: 28px;
+	margin: 5px;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+div{
+	display: flex;
+}
+
+section{
+	width: 200px;
+	text-align: center;
+}
+
+img{
+	width: 150px;
+	margin: 10px;
+	border-radius: 20%;
+}
+
+/* img:hover{
+	cursor: pointer;
+	width: 200px;
+	margin: 30px;
+} */
+
+
+a {
+	display: block;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: red;
+}
+

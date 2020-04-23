@@ -1,0 +1,81 @@
+/* Full background */
+html{
+    background-color: black;
+}
+
+/* Title style */
+.pagetitle{
+    color: purple;
+    font-size: 40px;
+    text-decoration: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Basic site layout container */
+.megaflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 5% auto;
+}
+
+/* Basic site layout button-like boxes */
+.categories{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.categlink{
+    text-decoration: none;
+    color: black;
+}
+
+.categlink:hover{
+     color: #FFDC00;
+     transition-duration: 0.5s;
+}
+
+/* Back to parent site ohne JS */
+.backbutton{
+  background-color: cornflowerblue;
+  border-radius: 25%;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.backbutton:hover{
+    color: black;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.backlink{
+    text-decoration: none;
+    color: white;
+}
+
+.backlink:hover{
+    color: black;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+
+

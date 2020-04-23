@@ -1,0 +1,28 @@
+main{
+	border: 5px solid #4285F4;
+	width: 200px;
+	font-family: 'Ubuntu', sans-serif;
+/*	font-weight: bold;	
+	border-radius: 5px; */
+}
+
+p{
+	margin: 0px;
+	color: white;
+	padding: 25px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.n{
+	background: #E676BC;
+}
+.e{
+	background: #F2F162;
+}
+.s{
+	background: #A9E6E7;
+}
+.w{
+	background: #7792E5;
+}

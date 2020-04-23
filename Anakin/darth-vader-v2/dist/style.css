@@ -1,0 +1,249 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Kreon', serif; */
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+#backto{
+	background: #222;
+	color: white;
+	text-align: center;
+	padding: 1%;
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	border-radius: 50%;
+	font-size: 45%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#backto:hover{
+	color: #FFDC00;
+}
+
+/* Header styling */
+
+header{
+	height: 10%;
+	background: #222;
+	font-family:'Ubuntu', sans-serif;;
+	text-align: center;
+	padding: 3% 0;
+}
+
+.scroll-link{
+	margin: 0 5%;
+	font-size: 230%;
+	text-decoration: none;
+	color: white;
+}
+
+.scroll-link:hover{
+	color: #FFDC00;
+/* 	cursor: hand; */
+}
+
+/* Main styling */
+
+#head{
+	position: relative;
+	margin: 0 auto 3% auto;
+	display: flex;
+	padding: 0 5% 0 0;
+	overflow: hidden;
+}
+
+img{
+	width: 200%;
+	margin: 0 0 0 -50%;
+}
+
+#name{
+	font-size: 400%;
+}
+
+.intro{
+	position: absolute;
+	bottom: 10%;
+	left: 6%;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 1% 2%;
+}
+	
+.title{
+	margin: -2%;
+	font-size: 200%;
+}
+
+main, footer{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Kreon', serif;
+	font-size: 22px;
+}
+
+li{
+	padding: 0.5%;
+	line-height: 150%;
+}
+
+h1{
+	text-transform: uppercase;
+	margin: 1% 0 4% 0;
+	padding: 4% 0;
+	font-size: 180%;
+}
+
+h2{
+	margin: 0px 0;
+}
+
+ul{
+	margin: 3% 0 6% 0;
+}
+
+.ach{
+	margin: 3% 0 6% 0%;
+	line-height: 150%;
+}
+
+.sf{
+	font-size: 85%;
+}
+
+.subt{
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+.line{
+	height: 3px;
+	background: black;
+/* 	border-radius: 50%; */
+}
+
+/* #lul{
+	margin-top: -3%;
+} */
+
+#gf{
+	text-decoration: none;
+	color: black;
+}
+
+#gf:hover{
+	color: green;
+}
+
+/* Quote box styling */
+
+blockquote{
+	background: #222;
+	color: white;
+	padding: 0.5% 5% 0.5% 8%;
+	margin: 0% 2% 5% 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 250%;
+	position: relative;
+	border-radius: 10%;
+	max-width: 300px;
+}
+
+blockquote::before{
+	content: '“';
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 300%;
+}
+
+#bq1{
+	padding: 0.5% 10% 0 8%;
+	margin: 0% 2% 25% 0;
+}
+
+#bq2{
+	padding: 0.5% 5% 0.5% 8%;
+	margin: 0% 2% 25% 0;
+}
+
+#bq3{
+	padding: 0.5% 5% -60% 8%;
+	margin: 0% 2% 25% 0;
+}
+
+/* Flexing */
+
+.boxes{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2%;
+/* 	max-width: 95%; */
+}
+
+#upperflex{
+	display: flex;
+	height: 500px;
+}
+
+#imgflex{
+/* 	flex-grow: 1; */
+	max-width: 75%;
+	overflow: hidden;
+	margin-right: -10%;
+}
+
+#upperleft{
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 0 -18%;
+	/* 	flex-grow: 1; */
+	font-size: 100%;
+	font-family: 'Kreon', serif;
+}
+
+
+/* Back to parent site*/
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 3%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  

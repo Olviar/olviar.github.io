@@ -1,0 +1,36 @@
+
+main{
+	width: 450px;
+	margin: 0px;
+	padding: 5px;
+/*	font-family: 'Ubuntu', sans-serif;	*/
+}
+
+h1{
+	color: red;
+}
+
+h2{
+	color: purple;
+}
+
+ .telekom{
+	color: magenta;
+	text-decoration: underline;
+}
+
+#underline{
+	text-decoration: underline;
+}
+
+/* 
+.underline{
+	text-decoration: underline;
+	color: magenta;
+}
+
+#black{
+	color: black;
+}
+
+*/

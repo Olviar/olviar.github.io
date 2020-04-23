@@ -1,0 +1,64 @@
+/*	font-family: 'Ubuntu', sans-serif;	*/
+
+form{
+	font-size: 24px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+}
+
+p{
+	margin: 5px;	
+}
+
+input{
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 15px;
+	display: block;
+	border: solid #60E858;
+	border-radius: 5px;
+	width: 300px;
+}
+
+.smmt{
+	margin-left: 5px;
+	padding: 20px;
+	font-size: 24px;
+	background: #60E858;
+	border: #60E858;
+	border-radius: 35px;
+	text-transform: uppercase;
+}
+
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  

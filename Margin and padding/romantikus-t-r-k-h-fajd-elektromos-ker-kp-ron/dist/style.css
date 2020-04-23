@@ -1,0 +1,51 @@
+body{
+	font-family:  'Ubuntu', sans-serif;
+}
+
+
+p{
+	background: #0d91a1;
+	margin: 10px;
+/*	border-top: solid red;
+	border-bottom: solid orange;
+	border-radius: 40px;		*/
+	border: 3px solid #7dce94;
+	padding: 10px;  
+	color: #015668;
+	width: 150px;
+	height: 45px;
+	font-size: 17px;
+	}
+
+	
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  

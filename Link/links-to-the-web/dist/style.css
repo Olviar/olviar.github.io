@@ -1,0 +1,58 @@
+div{
+	width: 500px;
+}
+
+.thislink{
+	display: block;
+	margin: 10px;
+	font-size: 24px;
+	color: green;
+	font-family: 'Sen', sans-serif;
+	
+}
+
+.thislink:hover {
+	color: lime;
+	text-decoration: none;
+}
+
+/* a:active{
+	color: yellow;
+}
+
+ a:visited{
+	color: purple;
+} */
+
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  

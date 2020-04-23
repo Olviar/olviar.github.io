@@ -1,0 +1,49 @@
+.doboz{
+	display: flex;
+	background: #ffd62a;
+	width: 400px;
+	height: 150px;
+	padding: 0;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.cucc{
+	width: 50px;
+	height: 50px;
+	background: #b02afe;
+	margin-left: 5px;
+}
+
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  

@@ -1,0 +1,68 @@
+main{
+	width: 450px;
+	margin: 0px;
+	padding: 5px;
+/*	font-family: 'Ubuntu', sans-serif;	*/
+}
+
+h1{
+	color: red;
+}
+
+h2{
+	color: purple;
+}
+
+ .telekom{
+	color: magenta;
+	text-decoration: underline;
+}
+
+#underline{
+	text-decoration: underline;
+}
+
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+
+/* 
+.underline{
+	text-decoration: underline;
+	color: magenta;
+}
+
+#black{
+	color: black;
+}
+
+*/

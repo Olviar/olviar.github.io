@@ -1,0 +1,118 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+/*  */
+
+body{
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+/* Header styling */
+
+#head{
+	position: relative;
+	margin: 0 auto 3% auto;
+}
+
+#img{
+	display: flex;
+}
+
+#name{
+	font-size: 475%;
+}
+
+.intro{
+	position: absolute;
+	bottom: 7%;
+	left: 20%;
+	font-family: 'Abril Fatface', cursive;
+	padding: 1% 2%;
+}
+	
+.title{
+	margin: -3%;
+	font-size: 230%;
+}
+
+/* Main styling */
+
+main, footer{
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 0 20%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+li{
+	padding: 0.5%;
+	line-height: 150%;
+}
+
+h1{
+	text-transform: uppercase;
+	margin: 4% 0;
+	padding: 4% 0;
+}
+
+h2{
+	margin: 0px 0;
+}
+
+ul{
+	margin: 3% 0 6% 0;
+}
+
+.ach{
+	margin: 3% 0 6% 0%;
+	line-height: 150%;
+}
+
+.sf{
+	font-size: 85%;
+}
+
+.subt{
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	margin: 0;
+}
+
+.line{
+	height: 3px;
+	background: black;
+/* 	border-radius: 50%; */
+}
+
+#lul{
+	margin-top: -3%;
+}
+
+#gf:hover{
+	color: green;
+}
+
+/* Quote box styling */
+
+blockquote{
+	background: #222;
+	color: white;
+	padding: 0.5% 5% 0.5% 8%;
+	margin: 5% -5%;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 300%;
+	position: relative;
+	border-radius: 10%;
+}
+
+blockquote::before{
+	content: '“';
+	position: absolute;
+	top: -18%;
+	left: 0;
+	font-size: 350%;
+}
+
+

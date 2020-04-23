@@ -1,0 +1,59 @@
+.cargo{
+	display: flex;
+	/* flex-direction: ; */
+	flex-wrap:  wrap;
+	justify-content: flex-end;
+	
+	width: 300px;
+}
+
+.green{
+	background: #51d400;
+	height: 150px;
+	width: 150px;
+}
+
+.yellow{
+	background: #ffd62a;
+	height: 150px;
+	width: 150px;
+}
+
+.purple{
+	background: #b02afe;
+	height: 150px;
+	width: 150px;
+}
+
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  

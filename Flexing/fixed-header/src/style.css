@@ -1,0 +1,53 @@
+
+ header{
+	background: purple;
+	height: 70px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 0px 90px;
+}
+ 
+a {
+	background: cyan;
+	height: 30px;
+	width: 100px;
+	display: block;
+	margin: 10px;
+}
+
+.wide{
+	width: 150px;
+}
+
+
+
+.container{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 80px;
+}
+
+.bulk{
+	height: 500px;
+	display: flex;
+}
+
+aside{
+	background: lime;
+	flex-grow: 1;
+}
+
+main{
+	background: yellow;
+	flex-grow: 3;
+}
+
+footer{
+	height: 80px;
+	background: grey;
+	margin-top: 10px;
+}

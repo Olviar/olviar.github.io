@@ -1,0 +1,183 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+/*  */
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+#backto{
+	background: #222;
+	color: white;
+	text-align: center;
+	padding: 1%;
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	border-radius: 50%;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+.scroll-link{
+	margin: 0 5%;
+	font-size: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+.scroll-link:hover{
+	color: #FFDC00;
+}
+
+
+
+/* Header styling */
+
+#head{
+	position: relative;
+	margin: 0 auto 3% auto;
+}
+
+img{
+	/* display: flex; */
+	max-width: 1280px
+}
+
+#name{
+	font-size: 475%;
+}
+
+.intro{
+	position: absolute;
+	bottom: 7%;
+	left: 20%;
+	font-family: 'Abril Fatface', cursive;
+	padding: 1% 2%;
+}
+	
+.title{
+	margin: -3%;
+	font-size: 230%;
+}
+
+/* Main styling */
+
+main, footer{
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 0 20%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+li{
+	padding: 0.5%;
+	line-height: 150%;
+}
+
+h1{
+	text-transform: uppercase;
+	margin: 4% 0;
+	padding: 4% 0;
+}
+
+h2{
+	margin: 0px 0;
+}
+
+ul{
+	margin: 3% 0 6% 0;
+}
+
+.ach{
+	margin: 3% 0 6% 0%;
+	line-height: 150%;
+}
+
+.sf{
+	font-size: 85%;
+}
+
+.subt{
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	margin: 0;
+}
+
+.line{
+	height: 3px;
+	background: black;
+/* 	border-radius: 50%; */
+}
+
+#lul{
+	margin-top: -3%;
+}
+
+#gf:hover{
+	color: green;
+}
+
+/* Quote box styling */
+
+blockquote{
+	background: #222;
+	color: white;
+	padding: 0.5% 5% 0.5% 8%;
+	margin: 5% -5%;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 300%;
+	position: relative;
+	border-radius: 10%;
+}
+
+blockquote::before{
+	content: '“';
+	position: absolute;
+	top: -18%;
+	left: 0;
+	font-size: 350%;
+}
+
+
+
+/* Back to parent site*/
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 3%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
